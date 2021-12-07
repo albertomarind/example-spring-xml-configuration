@@ -20,4 +20,14 @@ public class BaseballCoach implements Coach{
 		// TODO Auto-generated method stub
 		return fortuneService.getFortune();
 	}
+	
+	// add an init method
+	public void doMyStartupStuff() {
+		System.out.println("BaseballCoach: inside method doMYStartupStuff");
+	}
+	
+	// add a destroy method
+	public void doMyCleanupStuffYoYo(){
+		System.out.println("BaseballCoach: inside method doMyCleanupStuffYoYo");
+	}
 }
